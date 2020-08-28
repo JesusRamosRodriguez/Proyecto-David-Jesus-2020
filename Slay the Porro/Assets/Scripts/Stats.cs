@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//------------------------------------------------------------------------------------------------------------------------------------------------------
+//  Hoja almacenadora de toda la información de balanceo.
+//------------------------------------------------------------------------------------------------------------------------------------------------------
 namespace Stats.Card_Stats
 {
     static class Default
