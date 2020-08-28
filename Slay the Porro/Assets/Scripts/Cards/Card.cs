@@ -10,14 +10,19 @@ public class Card : MonoBehaviour
     [HideInInspector]
     public Vector3 last_pos_card_area;
 
-    [HideInInspector]
-    public bool targeteable;
-    // Physical - Water - Fire
-    [HideInInspector]
-    public bool [] dmg_Type = {false, false, false};
+    public Card_Scriptable card;
+    public SpriteRenderer background;
+    public SpriteRenderer image;
+    public SpriteRenderer description;
+    public SpriteRenderer type;
 
     private void Start()
     {
+        background.sprite = card.background_s;
+        image.sprite = card.image_s;
+        description.sprite = card.description_s;
+        type.sprite = card.type_s;
+
         last_pos_card_area = transform.position;
     }
 
