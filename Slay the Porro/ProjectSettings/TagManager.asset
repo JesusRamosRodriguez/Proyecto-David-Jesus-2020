@@ -42,3 +42,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Cartas
+    uniqueID: 2462513471
+    locked: 0

@@ -15,7 +15,7 @@ MonoBehaviour:
   name: Default
   id: 0
   background_s: {fileID: 21300000, guid: 80abfd26051626946bacc51ae2cdc11e, type: 3}
-  image_s: {fileID: 0}
-  description_s: {fileID: 0}
-  type_s: {fileID: 0}
-  damage: 10
+  image_s: {fileID: 21300000, guid: cc90ea81a51313942bb5e32c0299f654, type: 3}
+  description_s: {fileID: 21300000, guid: 84d8bc3dd244d7d448f4dacaf201ec0b, type: 3}
+  type_s: {fileID: 21300000, guid: 9fe7ef7ad10414b46a9ee8f8a033c2c0, type: 3}
+  damage: 0
