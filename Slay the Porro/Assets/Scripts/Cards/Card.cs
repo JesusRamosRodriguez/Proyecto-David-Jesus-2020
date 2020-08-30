@@ -16,6 +16,7 @@ public class Card : MonoBehaviour
     public SpriteRenderer description;
     public SpriteRenderer type;
 
+    public int id = -1;
     private void Start()
     {
         background.sprite = card.background_s;
